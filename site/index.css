@@ -1,0 +1,55 @@
+<style>
+#content{
+font-style: italic;
+font-color:white;
+padding: 10px;
+}
+#p1{
+	background-color: pink;
+	width: 30px;
+	height: 20px;
+	border: 1px solid black;
+	float:right-top;
+}
+#p2{
+	background-color: maroon;
+	width: 30px;
+	height: 20px;
+	border: 1px solid black;
+	float:right-top;
+}
+#p3{
+	background-color: yellow;
+	width: 30px;
+	height: 20px;
+	border: 1px solid black;
+	float:right-top;
+}
+.box{
+background-color: lightblue;
+padding:0;
+border:2px solid black;
+width:30%;
+margin-right:30px;
+margin-top:20px;
+margin-bottom: 30px;
+overflow:auto;
+}
+*{
+	box-sizing:border-box;
+}
+ @media(max-width: 992px){
+#first{
+float:left;
+}
+}
+ @media(max-width: 991px)and (min-width: 768px){
+#second{
+	float:left;
+}
+}
+ @media(max-width: 767px){
+#third{
+	clear:left;
+}
+}
