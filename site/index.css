@@ -45,14 +45,33 @@ float:left;
 #first{
 float:left;
 }
-}
- @media(max-width: 991px)and (min-width: 768px){
 #second{
 	float:left;
 }
+#third{
+	float:left;
+}
+}
+ @media(max-width: 991px)and (min-width: 768px){
+ 	#first{
+ 		float:left;
+ 	}
+#second{
+	float:left;
+}
+	#third{
+clear:left;
+	}
+
 }
  @media(max-width: 767px){
+ 	#first{
+float:left;
+ 	}
 #third{
-	clear:left;
+	float:left;
 }
-}
+	#second{
+		float:left;
+	}
+
