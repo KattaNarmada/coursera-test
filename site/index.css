@@ -3,8 +3,6 @@
 		}
 #first{
 font-style: italic;
-font-color:red;
-padding: 10px;
 }
 #p1{
 	background-color: pink;
@@ -67,6 +65,7 @@ clear:left;
 	}
 #b1,#b2{
 	float:left;
+	width: 50%;
 }
 #b3{
 	clear:left;
