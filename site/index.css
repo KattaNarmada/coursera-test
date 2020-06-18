@@ -70,6 +70,7 @@ clear:left;
 }
 #b3{
 	clear:left;
+	width: 100%;
 }
 }
  @media(max-width: 767px){
@@ -84,11 +85,14 @@ float:left;
 	}
 #b1{
 	float:left;
+	width: 100%;
 }
 #b2{
 	clear: :left;
+	width: 100%;
 }
 #b3{
 	clear:left;
+	width: 100%;
 }
 }
