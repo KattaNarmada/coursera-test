@@ -51,6 +51,9 @@ float:left;
 #third{
 	float:left;
 }
+#b1,#b2,#b3{
+	float:left;
+}
 }
  @media(max-width: 991px)and (min-width: 768px){
  	#first{
@@ -62,7 +65,12 @@ float:left;
 	#third{
 clear:left;
 	}
-
+#b1,#b2{
+	float:left;
+}
+#b3{
+	clear:left;
+}
 }
  @media(max-width: 767px){
  	#first{
@@ -74,4 +82,13 @@ float:left;
 	#second{
 		float:left;
 	}
-
+#b1{
+	float:left;
+}
+#b2{
+	clear: :left;
+}
+#b3{
+	clear:left;
+}
+}
