@@ -1,5 +1,5 @@
 	h1{
-			text-align:center;
+			text-align:center !important;
 		}
 #first{
 font-style: italic;
@@ -10,6 +10,8 @@ font-style: italic;
 	height: 20px;
 	border: 1px solid black;
 	float:right;
+	border-top:0px;
+	border-right: 0px;
 }
 #p2{
 	background-color: maroon;
@@ -17,6 +19,8 @@ font-style: italic;
 	height: 20px;
 	border: 1px solid black;
 	float:right;
+	border-top:0px;
+	border-right: 0px;
 }
 #p3{
 	background-color: yellow;
@@ -24,6 +28,8 @@ font-style: italic;
 	height: 20px;
 	border: 1px solid black;
 	float:right;
+	border-top:0px;
+	border-right: 0px;
 }
 .box{
 background-color: lightblue;
