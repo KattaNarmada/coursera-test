@@ -1,13 +1,13 @@
 	h1{
-			text-align:center. ! important;
+			text-align:center ! important;
 		}
 #first{
 font-style: italic;
 }
 #p1{
 	background-color: pink;
-	width: 50px;
-	height: 20px;
+	width:40px;
+	height:20px;
 	border: 1px solid black;
 	float:right;
 	padding-top:0px;
@@ -35,16 +35,17 @@ font-style: italic;
 background-color: lightblue;
 padding:10px;
 border:2px solid black;
-width:30%;
+width:33.33%;
 margin-right:30px;
 margin-top:20px;
 margin-bottom: 30px;
-float:left;
+float: left;
+text-align: center;
 }
 *{
 	box-sizing:border-box;
 }
- @media(max-width: 992px){
+ @media only screen and (max-width: 992px){
 #first{
 float:left;
 }
@@ -61,48 +62,22 @@ body{
 	display:flex;
 }
 }
- @media(max-width: 991px)and (min-width: 768px){
- 	#first{
- 		float:left;
- 	}
-#second{
-	float:left;
-}
-	#third{
-clear:left;
-	}
+ @media only screen and (max-width: 991px) and (min-width: 768px){
 #b1,#b2{
-	float:left;
 	width: 50%;
 }
 #b3{
-	clear:left;
 	width: 100%;
-}
-section{
-	display:flex;
 }
 }
  @media(max-width: 767px){
- 	#first{
-float:left;
- 	}
-#third{
-	float:left;
-}
-	#second{
-		float:left;
-	}
 #b1{
-	float:left;
 	width: 100%;
 }
 #b2{
-	clear: :left;
 	width: 100%;
 }
 #b3{
-	clear:left;
 	width: 100%;
 }
 }
