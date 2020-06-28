@@ -33,7 +33,6 @@ width:30%;
 margin-right:30px;
 margin-top:20px;
 margin-bottom: 30px;
-overflow:auto;
 float:left;
 }
 *{
@@ -52,6 +51,9 @@ float:left;
 #b1,#b2,#b3{
 	float:left;
 }
+body{
+	display:flex;
+}
 }
  @media(max-width: 991px)and (min-width: 768px){
  	#first{
@@ -68,7 +70,7 @@ clear:left;
 	width: 50%;
 }
 #b3{
-	clear:left;
+	clear:left;3
 	width: 100%;
 }
 }
