@@ -70,8 +70,11 @@ clear:left;
 	width: 50%;
 }
 #b3{
-	clear:left;3
+	clear:left;
 	width: 100%;
+}
+section{
+	display:flex;
 }
 }
  @media(max-width: 767px){
