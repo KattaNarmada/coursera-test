@@ -39,10 +39,11 @@ header{
 .box:last-child{
    margin-right: 0;
 }
-#p1,#p2,#p3{
+#p1,#p2,#p3 {
 	width: 8px;
 	height: 3px;
 	background-color: teal;
+	float:right;
 }
 
 @media screen and (max-width: 991px) and (min-width: 768){
@@ -58,7 +59,7 @@ header{
 		margin: 0;
 }
 }
-@media screen and (max-width: 480px){
+@media screen and (max-width: 767px){
 	.columns .box{
 		flex-basis: 100%;
 		margin: 0 0 5px 0;
