@@ -29,7 +29,7 @@ header{
 	border: 1px solid gray;
 	margin: 5px;
 	padding: 5px;
-	background-color: #f2f2f2;
+	background-color: blue;
 }
 
 .box:first-child{
@@ -45,7 +45,7 @@ header{
 	background-color: teal;
 }
 
-@media screen and (max-width: 980px){
+@media screen and (max-width: 991px) and (min-width: 768){
 	.coloumns .box{
 		margin-bottom: 5px;
 		flex-basis: 40%;
@@ -58,7 +58,7 @@ header{
 		margin: 0;
 }
 }
-@media screen and (max-width: 680px){
+@media screen and (max-width: 767px){
 	.columns .box{
 		flex-basis: 100%;
 		margin: 0 0 5px 0;
