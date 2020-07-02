@@ -45,6 +45,10 @@ header{
 	background-color: teal;
 	float:right;
 }
+#first,#second,#third{
+	float: left;
+	background-color: white;
+}
 
 @media screen and (max-width: 991px) and (min-width: 768){
 	.coloumns .box{
