@@ -46,6 +46,8 @@ header{
 	background-size: 5px;
 	background-color: red;
 	float:right;
+	padding-right: 0px;
+	padding-top: 0px;
 }
 #first,#second,#third{
 	float: left;
